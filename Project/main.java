@@ -21,7 +21,7 @@ public class main {
         order.setPayment(creditPayment);
 
         // Customer placing an order
-        Customer john = new Customer("John Doe", "123 Elm Street");
+        Customer john = new Customer("Jenn Doe", "123 Elm Street");
         john.placeOrder(order);
 
         if (order.processPayment()) {
